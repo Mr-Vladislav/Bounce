@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>Bounce</title>
+</head>
+<body>
+    <svg width="2000" height="2000">
+        <circle cx="80" cy="80" r="25" fill=#795548>
+            <animate 
+            attributeName="cy"
+            values="80;320;160;480;320;480;480;480;480" 
+            dur="10s" 
+            fill="freeze" 
+            repeatCount="10000" />
+
+            <animate 
+            attributeName="cx"
+            values="20;50;95;145;195;145;95;50;20"
+            dur="10s" 
+            fill="freeze" 
+            repeatCount="10000"/>
+
+            <animate 
+            attributeName="fill"
+            values="red;blue;green;white"
+            dur="10s" 
+            fill="freeze"  
+            repeatCount="10000"/>
+        </circle>
+
+        <rect width="80" height="20" x="0" y="340" fill="brown">
+        </rect>
+
+        <rect width="80" height="20" x="350" y="340" fill="brown">
+        </rect>
+
+        <circle cx="380" cy="80" r="25" fill=#795548>
+            <animate 
+            attributeName="cy"
+            values="80;320;160;480;320;480;480;480;480" 
+            dur="10s" fill="freeze" repeatCount="10000" />
+            
+            <animate 
+            attributeName="cx"
+            values="410;385;340;295;245;295;340;385;410"
+            dur="10s" fill="freeze" repeatCount="10000"/>
+            
+            <animate 
+            attributeName="fill"
+            values="black;pink;yellow;white"
+            dur="10s" 
+            fill="freeze"  
+            repeatCount="10000"/>
+    </circle>
+
+</svg>
+
+</body>
+</html>
